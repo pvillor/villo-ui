@@ -11,8 +11,8 @@ export const colors = {
   gray800: '#202024',
   gray900: '#121214',
 
-  villo300: '#fda4af',
-  villo500: '#f43f5e',
-  villo700: '#be123c',
-  villo900: '#881337',
+  villo300: '#f43f5e',
+  villo500: '#be123c',
+  villo700: '#881337',
+  villo900: '#4c0519',
 }
