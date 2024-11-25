@@ -4,10 +4,32 @@ import { Text, TextProps } from '@villo/react'
 export default {
   title: 'Typography/Text',
   component: Text,
-
   args: {
     children:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, porro labore quidem excepturi error soluta culpa necessitatibus laudantium voluptatum illo eveniet impedit veritatis deleniti reiciendis nisi inventore, tempora natus exercitationem!',
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: [
+        'xxs',
+        'xs',
+        'sm',
+        'md',
+        'lg',
+        'xl',
+        '2xl',
+        '4xl',
+        '5xl',
+        '6xl',
+        '7xl',
+        '8xl',
+        '9xl',
+      ],
+      control: {
+        type: 'inline-radio',
+      },
+    },
   },
 } as Meta<TextProps>
 

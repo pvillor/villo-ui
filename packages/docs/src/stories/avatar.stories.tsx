@@ -4,10 +4,16 @@ import { Avatar, AvatarProps } from '@villo/react'
 export default {
   title: 'Data display/Avatar',
   component: Avatar,
-
   args: {
     src: 'https://github.com/pvillor.png',
     alt: 'Paulo Victor',
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
   },
 } as Meta<AvatarProps>
 
